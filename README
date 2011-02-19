@@ -1,0 +1,18 @@
+
+Collabook Wordpress theme
+-------------------------
+
+Collabook is a Wordpress theme for collaborative editing/review of a document.
+The document itself is created by editing standard Wordpress pages in a
+hierarchy. Users comment on the individual pages to give feedback. The idea is
+to enable a group of editors and a large community to participate in a
+transparent creation of a document.
+
+
+Design goals
+------------
+
+- Use standard Wordpress funtions as much as possible.
+- Make it translatable
+- Make is accessible
+- Follow standards
