@@ -8,12 +8,16 @@ hierarchy. Users comment on the individual pages to give feedback. The idea is
 to enable a group of editors and a large community to participate in a
 transparent creation of a document.
 
+|H|
+
 Collabook is implemented as a Thematic child theme. Although some templates are
 overriden, the only addition to the markup is WAI ARIA landmark roles and an
 adjustment of heading levels in the comment section.
 
 The theme adjusts the doctype to HTML5 to make sure validation fanatics donät
 freak out over the WAI ARIA landmark roles. See functions.php for more information.
+
+.. |H| image:: https://github.com/peterk/Collabook/raw/master/screenshot.png
 
 License
 -------
