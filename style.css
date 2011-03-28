@@ -1,0 +1,165 @@
+/*   
+Theme Name: Collabook
+Theme URI: https://github.com/peterk/Collabook
+Description: A basic Thematic child theme. The idea is to enable a group of editors and a large community to participate in a transparent creation of a document.
+Author: Peter Krantz
+Author URI: http://www.peterkrantz.com/
+Template: thematic
+Version: 1.0
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Tags: Thematic, Book, clean, simple
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+#header {
+    background-color: #007399;
+}
+
+#blog-title a {
+    color: #fff;
+}
+
+#blog-description {
+    color: #fff;
+}
+
+.sf-menu a, .sf-menu a:visited {
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#branding {
+    padding:20px 0 20px 0;
+}
+
+#container {
+    width: 630px;
+    max-width: 100%;
+}
+#content {
+    width: 96%;
+}
+
+#main {
+    padding: 2em 0 22px 0;
+    max-width:100%;
+}
+
+.entry-title {
+    font-family: Georgia, serif;
+    font-weight:normal;
+    margin: 0 0 0.5em 0;
+}
+
+.entry-content {
+    padding: 0;
+    width:100%;
+}
+
+#primary {
+    background-color: #F6F6F2;
+}
+
+.aside #searchsubmit {
+    display: inline;
+}
+
+.aside .current_page_item a, .aside .current_page_item .page_item a {
+    color: #007399;
+}
+
+li.widget_pages>ul {
+    margin-top: 0.5em;
+}
+li.widget_pages a, ul.children li a {
+    color: #007399;
+    text-decoration:none;
+}
+
+li.page_item a:hover,  ul.children li a:hover  {
+    text-decoration:underline;
+    color: #00f;
+}
+
+li.widget_pages li {
+    list-style-type: none;
+    margin-bottom: 0.3em;
+}
+
+li.widget_pages>ul {
+    margin-left:0;
+}
+
+li.widget_pages li.current_page_item>a {
+}
+li.widget_pages li.current_page_item {
+}
+
+
+ul#navigation {
+    margin-left:0;
+}
+
+
+#footer {
+    background-color: #eee;
+    color: #000;
+}
+
+.aside h3 {
+    text-shadow: white 0px 1px 0px;
+    color: #000;
+    font-style:normal;
+}
+/*
+ul.sf-menu li ul {
+    display:none;
+}
+    */
+
+ul.sf-menu {
+    border:none;
+
+}
+ul.sf-menu li {
+    margin: 0 3px 0 0;
+    border:none;
+}
+
+ul.sf-menu a {
+    padding-right: 13px;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+ul.sf-menu li {
+    background-color: #eee
+}
+ul.sf-menu li.current_page_item {
+    background-color: #fff
+}
+
+ul.sf-menu li a:hover {
+    border-bottom-color: #fff;
+    text-decoration:underline;
+    background-color: #fff;
+}
