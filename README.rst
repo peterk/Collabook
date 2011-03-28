@@ -1,6 +1,6 @@
 
 Collabook Wordpress theme
--------------------------
+=========================
 
 Collabook is a clean Wordpress theme for collaborative editing/review of a
 document. The document is created by editing standard Wordpress pages in a
@@ -27,11 +27,9 @@ Installation
 
 1. Download and install Wordpress version 3.1 (other versions may work).
 
-2. Download and install the Thematic theme framework from
-http://themeshaper.com/thematic/ (tested with version 0.9.7.7)
+2. Download and install the Thematic theme framework from http://themeshaper.com/thematic/ (tested with version 0.9.7.7)
 
-3. Download the files in this repository and place them in a folder called
-"collabook" in the wp-content/themes directory.
+3. Download the files in this repository and place them in a folder called "collabook" in the wp-content/themes directory.
 
 4. Activate the theme in the Wordpress admin area.
 
